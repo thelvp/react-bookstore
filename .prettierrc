@@ -9,5 +9,9 @@
   "printWidth": 80,
   "htmlWhitespaceSensitivity": "ignore",
   "jsxSingleQuote": true,
-  "quoteProps": "as-needed"
+  "quoteProps": "as-needed",
+  "tailwindStyleSheet": "./src/styles/App.css",
+  "tailwindConfig": "tailwind.config.ts",
+  "tailwindFunctions": ["clsx"],
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
