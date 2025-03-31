@@ -1,11 +1,13 @@
+import { BookList } from './components/BookList';
+import { Navbar } from './components/Navbar';
 import './styles/App.css';
 
 function App() {
   return (
-    <>
-      <h1>Hello world</h1>
-      <p>Some text</p>
-    </>
+    <div className='min-h-screen bg-gray-100'>
+      <Navbar />
+      <BookList />
+    </div>
   );
 }
 
